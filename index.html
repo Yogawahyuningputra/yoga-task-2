@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div id="nav-left" class="nav-left">
+                <ul>
+                    <li><a href="index.html"><img src="https://dumbways.id/assets/images/brandred.png" alt="Dumbways.id"></a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">MY PROJECT</a></li>
+                    
+                </ul>
+            </div>
+            <div id="nav-right" class="nav-right">
+                <a href="contact.html"><button>Contact Me</button></a>
+            </div>
+        </nav>
+            
+
+        <form>
+            <p style="font-size: 25px;
+            text-align:center;
+            font-weight: bold;">GET IN TOUCH</p>
+            <div>
+                <label for="input-name">Name</label>
+                <input height="50" type="text" id="input-name" placeholder="Name" required>
+            </div>
+            <div>
+                <label for="input-email">Email</label>
+                <input height="50" type="email" id="input-email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="input-phone">Phone Number</label>
+                <input height="50" type="number" id="input-phone" placeholder="Phone" required>
+            </div>
+            <div>
+                <label for="input-industry">Perusahaan</label>
+                <input type="text" id="input-industry" placeholder="Perusahaan" required>
+            </div>
+            <div>
+                <label for="input-subject">Subject</label>
+                <select id="input-subject" required>
+                    <option value="" hidden >Select</option>
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>Fullstak</option>
+                </select>
+            </div>
+            <div>
+                <label for="input-message">Your Message</label>
+                <textarea rows="5" cols="25" id="input-message" placeholder="Masukan Saran" required></textarea>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+
+    </body>
+    </html>
